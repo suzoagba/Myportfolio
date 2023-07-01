@@ -1,7 +1,58 @@
-
-
-
-
-body{
+body {
     font-family: 'Yatra One', cursive;
+    background-color: #D5D5D5;
+}
+
+
+header {
+    position: fixed;
+    height: 50px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: beige;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-menu li{
+    display:inline-flex;
+}
+
+.nav-menu li a{
+    text-decoration: rgb(32, 121, 121);
+    color: #300e0e;
+    
+}
+.contact-button{
+    padding: 10px 20px;
+    background-color: #03051c;
+    color:#020313;
+    border: 20px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.my-work{
+    border-radius: 20px;
+    margin: 4px;
+}
+.main{
+    background-image: url("../images/Background\ -image.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
 }
